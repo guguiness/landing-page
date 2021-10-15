@@ -100,8 +100,8 @@ nav li a:active {
     margin: 32vh 0 32vh;
     padding: 9rem;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
 }
 
 #contact h2 {
