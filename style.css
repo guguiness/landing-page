@@ -12,7 +12,8 @@ html {
     --orange-web: #fca311;
     --platinum: #e5e5e5;
     --oxford-blue: #14213d;
-    --font-color: #fff;
+    --font-color-bright: #fff;
+    --font-color-dark: #111;
 }
 
 body {
@@ -51,7 +52,7 @@ h1 {
 
 h1 a {
     text-decoration: none;
-    color: var(--font-color);  
+    color: var(--font-color-bright);  
     transition: 80ms;  
 }
 
@@ -70,7 +71,7 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: var(--font-color);
+    color: var(--font-color-bright);
     font-size: 20px;
     padding: 8px 16px;
     transition: 80ms;
@@ -88,16 +89,24 @@ nav li a:active {
 }
 
 .contact-container {
+    background-image: url("public/img-road.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
 }
 
 #contact {
     margin: 32vh 0 32vh;
+    padding: 2rem 2rem 2.5rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur;
 }
 
 #contact h2 {
     font-size: 3em;
+    color: var(--font-color-dark);
     margin-bottom: 1.5em;
 }
 
@@ -116,7 +125,7 @@ nav li a:active {
 
 #contact button {
     font-size: 1em;
-    color: var(--font-color);
+    color: var(--font-color-bright);
     background-color: var(--oxford-blue);
     border: 0;
     border-radius: 5px;
