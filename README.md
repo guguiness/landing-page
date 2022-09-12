@@ -10,3 +10,5 @@ Trata-se de uma landing page de uma empresa fictícia, onde os requisitos eram:
 - ser responsivo. (em progresso)
 
 O projeto foi feito apenas com HTML e CSS, sem a importação de bibliotecas.
+
+Link de acesso ao projeto: https://guguiness.github.io/tripbooks-landing-page/
